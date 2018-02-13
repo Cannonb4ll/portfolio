@@ -2299,25 +2299,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -38237,7 +38218,11 @@ var staticRenderFns = [
         _c("h2", { staticClass: "title" }, [_vm._v("Technieken")]),
         _vm._v(" "),
         _c("p", { staticClass: "text-muted" }, [
-          _c("em", [_vm._v("Ik sta altijd open om nieuwe talen te leren!")])
+          _c("em", [
+            _vm._v(
+              "U heeft hier een overzicht van alle programma's/talen die ik beheers."
+            )
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "brands row" }, [
@@ -38455,74 +38440,30 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("section", [
-        _c("h1", { staticClass: "title title--spaced" }, [
-          _vm._v("Experience")
+        _c("h1", { staticClass: "title title--spaced" }, [_vm._v("Ervaring")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "list-group list-group-vertical" }, [
+          _c("div", { staticClass: "list-group-item" }, [
+            _c("p", { staticClass: "item-date" }, [_vm._v("2013 - heden")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "item-title" }, [_vm._v("Smink Design")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-muted" }, [
+              _vm._v("Zelfstandig ondernemer - Backend developer")
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "list-group list-group-vertical" }, [
           _c("div", { staticClass: "list-group-item" }, [
-            _c("p", { staticClass: "item-date" }, [_vm._v("2015 - Present")]),
+            _c("p", { staticClass: "item-date" }, [_vm._v("2015 - 2016")]),
             _vm._v(" "),
             _c("p", { staticClass: "item-title" }, [
-              _vm._v("Working remotely")
+              _vm._v("De Online Fabriek")
             ]),
             _vm._v(" "),
             _c("p", { staticClass: "text-muted" }, [
-              _vm._v("Front-end / Full Stack developer")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "list-group-item" }, [
-            _c("p", { staticClass: "item-date" }, [_vm._v("2013-2015")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "item-title" }, [
-              _vm._v("Adevo ("),
-              _c("em", [_vm._v("office")]),
-              _vm._v(")")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-muted" }, [
-              _vm._v("Full Stack developer")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "list-group-item" }, [
-            _c("p", { staticClass: "item-date" }, [_vm._v("2010 - 2013")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "item-title" }, [_vm._v("Freelance")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-muted" }, [
-              _vm._v("Front-end developer")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", [
-        _c("h2", { staticClass: "title title--spaced" }, [_vm._v("Education")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "list-group list-group-vertical" }, [
-          _c("div", { staticClass: "list-group-item" }, [
-            _c("p", { staticClass: "item-date" }, [_vm._v("2013-2015")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "item-title" }, [
-              _vm._v("University of Latvia")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-muted" }, [
-              _vm._v("Programming and Administration of Computer Networks")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "list-group-item" }, [
-            _c("p", { staticClass: "item-date" }, [_vm._v("2012-2013")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "item-title" }, [
-              _vm._v("Ventspils University College")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-muted" }, [
-              _vm._v("Information technology")
+              _vm._v("Backend developer")
             ])
           ])
         ])

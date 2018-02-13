@@ -2,7 +2,7 @@
 	<div>
 		<section>
 			<h2 class="title">Technieken</h2>
-			<p class="text-muted"><em>Ik sta altijd open om nieuwe talen te leren!</em></p>
+			<p class="text-muted"><em>U heeft hier een overzicht van alle programma's/talen die ik beheers.</em></p>
 			<div class="brands row">
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
 					<a href="http://webpack.github.io/" target="_blank">
@@ -63,38 +63,19 @@
 			</div>
 		</section>
 		<section>
-			<h1 class="title title--spaced">Experience</h1>
+			<h1 class="title title--spaced">Ervaring</h1>
 			<div class="list-group list-group-vertical">
 				<div class="list-group-item">
-					<p class="item-date">2015 - Present</p>
-					<p class="item-title">Working remotely</p>
-					<p class="text-muted">Front-end / Full Stack developer</p>
-				</div>
-				<div class="list-group-item">
-					<p class="item-date">2013-2015</p>
-					<p class="item-title">Adevo (<em>office</em>)</p>
-					<p class="text-muted">Full Stack developer</p>
-				</div>
-				<div class="list-group-item">
-					<p class="item-date">2010 - 2013</p>
-					<p class="item-title">Freelance</p>
-					<p class="text-muted">Front-end developer</p>
+					<p class="item-date">2013 - heden</p>
+					<p class="item-title">Smink Design</p>
+					<p class="text-muted">Zelfstandig ondernemer - Backend developer</p>
 				</div>
 			</div>
-		</section>
-		<section>
-			<h2 class="title title--spaced">Education</h2>
 			<div class="list-group list-group-vertical">
 				<div class="list-group-item">
-					<p class="item-date">2013-2015</p>
-					<p class="item-title">University of Latvia</p>
-					
-					<p class="text-muted">Programming and Administration of Computer Networks</p>
-				</div>
-				<div class="list-group-item">
-					<p class="item-date">2012-2013</p>
-					<p class="item-title">Ventspils University College</p>
-					<p class="text-muted">Information technology</p>
+					<p class="item-date">2015 - 2016</p>
+					<p class="item-title">De Online Fabriek</p>
+					<p class="text-muted">Backend developer</p>
 				</div>
 			</div>
 		</section>

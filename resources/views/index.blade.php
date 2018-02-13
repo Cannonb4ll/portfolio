@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dennis Smink | Freelance PHP programmeur</title>
     <meta name="description" content="Dennis Smink - Freelance programmeur">
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ $css }}">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         </keep-alive>
     </main-layout>
 </div>
-<script src="/js/app.js"></script>
+<script src="{{ $js }}"></script>
 
 </body>
 </html>

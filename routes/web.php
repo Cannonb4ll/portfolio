@@ -1,7 +1,6 @@
 <?php
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -15,8 +14,17 @@
 
 $app->post('/api/contact', 'ContactFormController@sendForm');
 
-$app->get('/{any:.*}', function(){
-	return view('index');
+$app->get('/{any:.*}', function () {
+    $css = mix('/css/app.css');
+    $js = mix('/js/app.js');
+
+    return view('index', compact('css', 'js'));
 });
 
+function mix($key)
+{
+    $mix = json_decode((file_get_contents(__DIR__ . '/../public/mix-manifest.json')), true);
+
+    return $mix[$key];
+}
 

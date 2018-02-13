@@ -32,7 +32,14 @@
 					</transition>
 				</div>
 
-				<button type="submit" class="btn btn-primary btn-rounded btn-full">Verstuur</button>
+				<button type="submit" :disabled="loading" class="btn btn-primary btn-rounded btn-full">
+					<span v-if="loading">
+						Versturen..
+					</span>
+					<span v-else>
+						Verstuur
+					</span>
+				</button>
 			</fieldset>
 		</form>
 	</div>
@@ -51,6 +58,7 @@
 				legend : 'Verstuur bericht',
 				show: true,
 			},
+			loading: false,
 			typed : null
 		}
 	},
@@ -58,7 +66,7 @@
 		changeLegend(){
 			if(this.form.name != ''){
 				this.form.legend = '';
-				var legend = 'Nice to meet you, ' + this.form.name + '!';
+				var legend = 'Hallo, ' + this.form.name + '!';
 				
 				if(this.typed){
 					this.typed.destroy();
@@ -70,13 +78,14 @@
 				});
 			}
 			else{
-				this.form.legend = 'Send a message';
+				this.form.legend = 'Verstuur een bericht';
 				if(this.typed){
 					this.typed.destroy();
 				}
 			}
 		},
 		sendForm(){
+		    this.loading = true;
 			var self = this;
 			this.$validator.validateAll().then(() => {
 				axios.post('/api/contact', {
@@ -87,6 +96,7 @@
 				.then(function (response) {
 					if(response.data.success){
 						self.form.show = false;
+						self.loading = false;
 					}
 					else{
 						var errors = response.data.errors;

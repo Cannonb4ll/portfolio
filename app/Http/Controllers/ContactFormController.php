@@ -19,13 +19,14 @@ class ContactFormController extends Controller
         //
     }
 
-    public function sendForm(Request $request){
+    public function sendForm(Request $request)
+    {
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|email',
             'message' => 'required'
         ]);
-        if($validator->fails()){
+        if ($validator->fails()) {
             return response()->json(['success' => false, 'errors' => $validator->errors()]);
         }
         $data = array(
@@ -33,7 +34,7 @@ class ContactFormController extends Controller
             'email' => $request->email,
             'message' => $request->message
         );
-        $email = 'emils.gulbis@gmail.com';
+        $email = 'dennissmink@gmail.com';
         Mail::to($email)->send(new ContactForm($data));
 
         return response()->json(['success' => true]);

@@ -73,6 +73,13 @@
 			</div>
 			<div class="list-group list-group-vertical">
 				<div class="list-group-item">
+					<p class="item-date">2013 - 2018</p>
+					<p class="item-title">ServerBuilds</p>
+					<p class="text-muted">Minecraft, web en Teamspeak 3 hosting bedrijf</p>
+				</div>
+			</div>
+			<div class="list-group list-group-vertical">
+				<div class="list-group-item">
 					<p class="item-date">2015 - 2016</p>
 					<p class="item-title">De Online Fabriek</p>
 					<p class="text-muted">Backend developer</p>

@@ -4,6 +4,13 @@
 		"url" : "https://brandweerbarboek.nl",
 		"date" : "2017-01",
 		"task" : "Frontend en backend ontwikkeling",
-		"thumbnail" : "/images/portfolio/posadshawl.jpg"
+		"thumbnail" : "/images/portfolio/brandweerbarboek.jpg"
+	},
+	{
+		"title" : "Created By Wolf",
+		"url" : "https://createdbywolf.nl",
+		"date" : "2017-01",
+		"task" : "Frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/createdbywolf.jpg"
 	}
 ]

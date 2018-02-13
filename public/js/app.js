@@ -52846,7 +52846,7 @@ module.exports = Component.exports
 /***/ "./resources/assets/scripts/data/portfolio.json":
 /***/ (function(module, exports) {
 
-module.exports = [{"title":"Brandweer Barboek","url":"https://brandweerbarboek.nl","date":"2017-01","task":"Frontend en backend ontwikkeling","thumbnail":"/images/portfolio/posadshawl.jpg"}]
+module.exports = [{"title":"Brandweer Barboek","url":"https://brandweerbarboek.nl","date":"2017-01","task":"Frontend en backend ontwikkeling","thumbnail":"/images/portfolio/brandweerbarboek.jpg"},{"title":"Created By Wolf","url":"https://createdbywolf.nl","date":"2017-01","task":"Frontend en backend ontwikkeling","thumbnail":"/images/portfolio/createdbywolf.jpg"}]
 
 /***/ }),
 

@@ -1,34 +1,34 @@
 <template>
   <footer>
   	<dl>
-  		<dt>Email</dt>
+  		<dt>E-mail</dt>
   		<dd><a :href="mailto">{{email}}</a></dd>
   	</dl>
   	<dl>
-  		<dt>Phone</dt>
+  		<dt>Telefoon</dt>
   		<dd><a :href="tel">{{phone}}</a></dd>
   	</dl>
   	<dl class="mb-0">
-  		<dt>Find me on</dt>
+  		<dt>Social</dt>
   		<dd class="mb-0">
   			<ul class="nav nav-social">
   				<li class="nav-item">
-  					<a class="nav-link" href="https://www.facebook.com/emiils" target="_blank">
+  					<a class="nav-link" href="https://www.facebook.com/dennissm1nk" target="_blank">
   						<i class="fa fa-facebook"></i>
   					</a>
   				</li>
   				<li class="nav-item">
-  					<a class="nav-link" href="https://www.linkedin.com/in/emilsgulbis/" target="_blank">
+  					<a class="nav-link" href="https://www.linkedin.com/in/dennissmink/" target="_blank">
   						<i class="fa fa-linkedin"></i>
   					</a>
   				</li>
   				<li class="nav-item">
-  					<a class="nav-link" href="https://twitter.com/yozhis" target="_blank">
+  					<a class="nav-link" href="https://twitter.com/dennis_smink" target="_blank">
   						<i class="fa fa-twitter"></i>
   					</a>
   				</li>
   				<li class="nav-item">
-  					<a class="nav-link" href="https://github.com/emilsgulbis" target="_blank">
+  					<a class="nav-link" href="https://github.com/Cannonb4ll" target="_blank">
   						<i class="fa fa-github"></i>
   					</a>
   				</li>
@@ -42,8 +42,8 @@
 export default {
 	data(){
 		return {
-			email: 'emils.gulbis@gmail.com',
-			phone: '+371 20 30 30 56',
+			email: 'info@dennissmink.nl',
+			phone: '+31 6 22 30 42 99',
 			social : {
 				facebook : '',
 				twitter: '',

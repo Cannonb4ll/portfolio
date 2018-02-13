@@ -1,12 +1,14 @@
 <template>
 	<div class="row profile">
 		<div class="col-sm-6 col-primary">
-			<div class="profile__image" style="background-image:url(/images/emilsgulbis.jpg)"></div>
+			<div class="profile__image" style="background-image:url(/images/portfolio.jpg)"></div>
 		</div>
 		<div class="col-sm-6 profile__content" v-mousemove>
-			<div class="title">Emils<div class="text-primary point-to-left">Gulbis</div></div>
-			<h1 class="text-default">Front-end developer - Latvia</h1>
-			<p class="text-muted">I'm Emils Gulbis and I love to develop<br/>beautiful UI's.<br/>24 year old code ninja from <router-link to="/contact" class="link--styled">Liepaja, Latvia</router-link></p>
+			<div class="title">Dennis<div class="text-primary point-to-left">Smink</div></div>
+			<h1 class="text-default">Backend developer</h1>
+			<p class="text-muted">
+				Sterke webapplicaties op maat gemaakt naar uw eigen wensen. Stabiliteit en snelheid zijn belangrijke factoren in uw applicatie, het zijn de dingen die uw applicatie sterk maken. Ik help u met het realiseren van dit doel.
+			</p>
 		</div>
 	</div>
 </template>

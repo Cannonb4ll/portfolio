@@ -3,10 +3,10 @@
 		<nav class="menu" v-if="active">
 			<ul class="nav">
 				<li class="nav-item">
-					<router-link class="nav-link" to="/">About me</router-link>
+					<router-link class="nav-link" to="/">Over mij</router-link>
 				</li>
 				<li class="nav-item">
-					<router-link class="nav-link" to="/resume">Resume</router-link>
+					<router-link class="nav-link" to="/resume">CV</router-link>
 				</li>
 				<li class="nav-item">
 					<router-link class="nav-link" to="/portfolio">Portfolio</router-link>
@@ -15,7 +15,7 @@
 					<router-link class="nav-link" to="/blog">Blog</router-link>
 				</li> -->
 				<li class="nav-item">
-					<router-link class="nav-link" to="/contact">Contact me</router-link>
+					<router-link class="nav-link" to="/contact">Contact</router-link>
 				</li>
 			</ul>
 		</nav>

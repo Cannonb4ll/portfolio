@@ -1,15 +1,15 @@
 <template>
 	<div>
 		<div v-if="!form.show" class="alert alert-success">
-			<p><strong>Thank you, {{form.name}}!</strong></p>
-			<p>I will reply you as soon as possible.</p>
+			<p><strong>Bedankt, {{form.name}}!</strong></p>
+			<p>Ik zal binnen 24 uur reageren op je bericht..</p>
 		</div>
 		<form action="post" class="form--contacts" @submit.prevent="sendForm" v-if="form.show">
 			<legend>{{form.legend}}<span class="typed"></span></legend>
 			<fieldset>
 				<div class="form-group" :class="{'invalid' : errors.has('name')}">
 					<input type="text" id="your-name" class="form-control" name="name" v-model="form.name" :class="{'non-empty' : form.name.length}" autocomplete="off" v-validate="'required'" @change="changeLegend">
-					<label for="your-name">Your Name</label>
+					<label for="your-name">Uw naam</label>
 					<div class="form-control__helper"></div>
 					<transition name="slideUp">
 						<div v-if="errors.has('name')" class="form-message error">{{ errors.first('name') }}</div>
@@ -17,7 +17,7 @@
 				</div>
 				<div class="form-group" :class="{'invalid' : errors.has('email')}">
 					<input type="email" id="your-email" class="form-control" name="email" v-model="form.email" :class="{'non-empty' : form.email.length}" autocomplete="off" v-validate="'required|email'">
-					<label for="your-email">Your Email</label>
+					<label for="your-email">Uw e-mail adres</label>
 					<div class="form-control__helper"></div>
 					<transition name="slideUp">
 						<div v-if="errors.has('email')" class="form-message error">{{ errors.first('email') }}</div>
@@ -25,14 +25,14 @@
 				</div>
 				<div class="form-group" :class="{'invalid' : errors.has('message')}">
 					<textarea id="your-message" rows="6" class="form-control" name="message" v-model="form.message" :class="{'non-empty' : form.message.length}" autocomplete="off" v-validate="'required'"></textarea>
-					<label for="your-message">Your Message</label>
+					<label for="your-message">Bericht</label>
 					<div class="form-control__helper"></div>
 					<transition name="slideUp">
 						<div v-if="errors.has('message')" class="form-message error">{{ errors.first('message') }}</div>
 					</transition>
 				</div>
 
-				<button type="submit" class="btn btn-primary btn-rounded btn-full">Send</button>
+				<button type="submit" class="btn btn-primary btn-rounded btn-full">Verstuur</button>
 			</fieldset>
 		</form>
 	</div>
@@ -48,7 +48,7 @@
 				name : '',
 				email : '',
 				message : '',
-				legend : 'Send a message',
+				legend : 'Verstuur bericht',
 				show: true,
 			},
 			typed : null

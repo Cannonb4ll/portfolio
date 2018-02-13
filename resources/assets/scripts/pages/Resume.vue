@@ -1,14 +1,9 @@
 <template>
 	<div>
 		<section>
-			<h2 class="title">Tech I use</h2>
-			<p class="text-muted"><em>I'm always excited to learn some new technology!</em></p>
+			<h2 class="title">Technieken</h2>
+			<p class="text-muted"><em>Ik sta altijd open om nieuwe talen te leren!</em></p>
 			<div class="brands row">
-				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
-					<a href="https://atom.io/" target="_blank">
-						<img src="/images/logos/atom.svg" alt="Atom" class="img-fluid">
-					</a>
-				</div>
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
 					<a href="http://webpack.github.io/" target="_blank">
 						<img src="/images/logos/webpack.svg" alt="Webpack" class="img-fluid">

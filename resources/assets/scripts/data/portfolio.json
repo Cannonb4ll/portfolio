@@ -3,28 +3,35 @@
 		"title" : "Brandweer Barboek",
 		"url" : "https://brandweerbarboek.nl",
 		"date" : "2017-01",
-		"task" : "Barboek applicatie - frontend en backend ontwikkeling",
+		"task" : "ACTIEF - Barboek applicatie - frontend en backend ontwikkeling",
 		"thumbnail" : "/images/portfolio/brandweerbarboek.jpg"
 	},
 	{
 		"title" : "Created By Wolf",
 		"url" : "https://createdbywolf.nl",
 		"date" : "2017-01",
-		"task" : "Webshop - frontend en backend ontwikkeling",
+		"task" : "ACTIEF - Webshop - frontend en backend ontwikkeling",
 		"thumbnail" : "/images/portfolio/createdbywolf.jpg"
 	},
 	{
 		"title" : "Chemo Mutsen",
 		"url" : "https://chemomutsen.nl",
 		"date" : "2017-01",
-		"task" : "Webshop - frontend en backend ontwikkeling",
+		"task" : "ACTIEF - Webshop - frontend en backend ontwikkeling",
 		"thumbnail" : "/images/portfolio/chemomutsen.jpg"
+	},
+	{
+		"title" : "Goedele",
+		"url" : "https://goedele.com",
+		"date" : "2018-01",
+		"task" : "ACTIEF - Backend ontwikkeling community software",
+		"thumbnail" : "/images/portfolio/goedele.jpg"
 	},
 	{
 		"title" : "ServerBuilds",
 		"url" : "https://serverbuilds.nl",
 		"date" : "2013-01",
-		"task" : "Voorheen eigen bedrijf, 30.000+ klanten - frontend en backend ontwikkeling",
+		"task" : "INACTIEF - Voorheen eigen bedrijf, 30.000+ klanten - frontend en backend ontwikkeling",
 		"thumbnail" : "/images/portfolio/serverbuilds.jpg"
 	}
 ]

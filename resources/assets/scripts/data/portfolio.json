@@ -21,13 +21,6 @@
 		"thumbnail" : "/images/portfolio/chemomutsen.jpg"
 	},
 	{
-		"title" : "Goedele",
-		"url" : "https://goedele.com",
-		"date" : "2018-01",
-		"task" : "ACTIEF - Backend ontwikkeling community software",
-		"thumbnail" : "/images/portfolio/goedele.jpg"
-	},
-	{
 		"title" : "ServerBuilds",
 		"url" : "https://serverbuilds.nl",
 		"date" : "2013-01",

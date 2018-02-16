@@ -16,6 +16,12 @@
 					<div class="list-group-item">
 						<p class="item-title">Telefoon</p>
 						<p><a href="tel:+31622304299">+31 6 22 30 42 99</a></p>
+
+						<p class="item-title">KvK</p>
+						<p>57213429</p>
+
+						<p class="item-title">BTW</p>
+						<p>NL200257444B01</p>
 					</div>
 				</div>
 			</div>

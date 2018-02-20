@@ -21,6 +21,27 @@
 		"thumbnail" : "/images/portfolio/chemomutsen.jpg"
 	},
 	{
+		"title" : "Makawoo",
+		"url" : "https://makawoo.nl",
+		"date" : "2016-01",
+		"task" : "ACTIEF - Webshop - frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/makawoo.png"
+	},
+	{
+		"title" : "LaraBug",
+		"url" : "https://larabug.com",
+		"date" : "2016-02",
+		"task" : "ACTIEF - Debug programma - frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/larabug-small.png"
+	},
+	{
+		"title" : "BMHVD App",
+		"url" : "http://bmhvd.nl",
+		"date" : "2015-01",
+		"task" : "ACTIEF - Monitor app - Complete ontwikkeling native iOS en android applicatie",
+		"thumbnail" : "/images/portfolio/bmhvd-project.png"
+	},
+	{
 		"title" : "ServerBuilds",
 		"url" : "https://serverbuilds.nl",
 		"date" : "2013-01",

@@ -4,10 +4,6 @@
   		<dt>E-mail</dt>
   		<dd><a :href="mailto">{{email}}</a></dd>
   	</dl>
-  	<dl>
-  		<dt>Telefoon</dt>
-  		<dd><a :href="tel">{{phone}}</a></dd>
-  	</dl>
   	<dl class="mb-0">
   		<dt>Social</dt>
   		<dd class="mb-0">
@@ -43,7 +39,6 @@ export default {
 	data(){
 		return {
 			email: 'info@dennissmink.nl',
-			phone: '+31 6 22 30 42 99',
 			social : {
 				facebook : '',
 				twitter: '',
@@ -55,9 +50,6 @@ export default {
 		mailto(){
 			return 'mailto:' + this.email;
 		},
-		tel(){
-			return 'tel:' + this.phone.replace(/ /g, '')
-		}
 	}
 }
 </script>

@@ -7,6 +7,13 @@
 		"thumbnail" : "/images/portfolio/brandweerbarboek.jpg"
 	},
 	{
+		"title" : "Ploi",
+		"url" : "https://ploi.io",
+		"date" : "2018-02",
+		"task" : "ACTIEF - Server applicatie - frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/ploi.jpg"
+	},
+	{
 		"title" : "Created By Wolf",
 		"url" : "https://createdbywolf.nl",
 		"date" : "2017-01",

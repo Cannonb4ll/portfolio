@@ -7,6 +7,20 @@
 		"thumbnail" : "/images/portfolio/brandweerbarboek.jpg"
 	},
 	{
+		"title" : "Mijn Barboek",
+		"url" : "https://mijnbarboek.nl",
+		"date" : "2018-01",
+		"task" : "ACTIEF - Barboek applicatie - frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/mijnbarboek.png"
+	},
+	{
+		"title" : "Kinder Thema's",
+		"url" : "https://kinderthemas.nl",
+		"date" : "2018-01",
+		"task" : "ACTIEF - frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/kinderthemas.png"
+	},
+	{
 		"title" : "Ploi",
 		"url" : "https://ploi.io",
 		"date" : "2018-02",
@@ -40,6 +54,13 @@
 		"date" : "2016-02",
 		"task" : "ACTIEF - Debug programma - frontend en backend ontwikkeling",
 		"thumbnail" : "/images/portfolio/larabug-small.png"
+	},
+	{
+		"title" : "Voormeubels",
+		"url" : "https://www.voormeubels.nl",
+		"date" : "2015-05",
+		"task" : "ACTIEF - Webshop - frontend en backend ontwikkeling",
+		"thumbnail" : "/images/portfolio/voormeubels.jpg"
 	},
 	{
 		"title" : "BMHVD App",

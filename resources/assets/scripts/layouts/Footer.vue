@@ -10,24 +10,29 @@
   			<ul class="nav nav-social">
   				<li class="nav-item">
   					<a class="nav-link" href="https://www.facebook.com/dennissm1nk" target="_blank">
-  						<i class="fa fa-facebook"></i>
+  						<i class="fab fa-facebook"></i>
   					</a>
   				</li>
   				<li class="nav-item">
   					<a class="nav-link" href="https://www.linkedin.com/in/dennissmink/" target="_blank">
-  						<i class="fa fa-linkedin"></i>
+  						<i class="fab fa-linkedin"></i>
   					</a>
   				</li>
   				<li class="nav-item">
   					<a class="nav-link" href="https://twitter.com/dennis_smink" target="_blank">
-  						<i class="fa fa-twitter"></i>
+  						<i class="fab fa-twitter"></i>
   					</a>
   				</li>
   				<li class="nav-item">
   					<a class="nav-link" href="https://github.com/Cannonb4ll" target="_blank">
-  						<i class="fa fa-github"></i>
+  						<i class="fab fa-github"></i>
   					</a>
   				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://medium.com/@dennissmink" target="_blank">
+						<i class="fab fa-medium"></i>
+					</a>
+				</li>
   			</ul>
   		</dd>
   	</dl>
